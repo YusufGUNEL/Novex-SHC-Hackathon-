@@ -1,5 +1,6 @@
-# Novex-SHC-Hackathon-
-# Smile Hair Clinic - Mobil Uygulama
+# Novex – Smile Hair Clinic Mobil Uygulaması
+
+Smile Hair Clinic hackathonu için geliştirilen Flutter uygulaması. Saç ekimi sonrası hastanın kontrol fotoğraflarını evden, doğru açılardan çekip doktoruna göndermesini sağlar.
 
 Saç ekimi kliniği yönetimi, hasta bakımı ve AI destekli fotoğraf analizi için kapsamlı bir mobil uygulama.
 
@@ -9,7 +10,7 @@ Saç ekimi kliniği yönetimi, hasta bakımı ve AI destekli fotoğraf analizi i
 - **Firebase** - Backend servisleri (Kimlik Doğrulama, Firestore, Depolama, Cloud Functions)
 - **Google ML Kit** - Yüz tespiti ve görüntü analizi
 - **AI Analiz Servisi** - Saç ekimi prosedürleri için özel fotoğraf analizi
-- **Çoklu Dil Desteği** - 12 dil (Türkçe, İngilizce, Arapça, Almanca, İspanyolca, Fransızca, İtalyanca, Portekizce, Rusça, İbranice, Arnavutça ve daha fazlası)
+- **Çoklu Dil Desteği** - 11 dil (Türkçe, İngilizce, Arapça, Almanca, İspanyolca, Fransızca, İtalyanca, Portekizce, Rusça, İbranice, Arnavutça)
 
 ## ✨ Temel Özellikler
 
@@ -21,7 +22,7 @@ Saç ekimi kliniği yönetimi, hasta bakımı ve AI destekli fotoğraf analizi i
 - **Doktor Mesajlaşma**: Atanan doktorlarla doğrudan iletişim
 - **Randevu Yönetimi**: Randevu planlayın ve yönetin
 - **Bildirimler**: Randevular, ilaçlar ve güncellemeler için gerçek zamanlı bildirimler
-- **Çoklu Dil Desteği**: 12 dilde tam yerelleştirme
+- **Çoklu Dil Desteği**: 11 dilde tam yerelleştirme
 
 ### Doktor Özellikleri
 - **Hasta Yönetimi**: Hasta profillerini görüntüleyin ve yönetin
@@ -38,9 +39,9 @@ Saç ekimi kliniği yönetimi, hasta bakımı ve AI destekli fotoğraf analizi i
 - **Görüntü İşleme**: AI/ML kullanarak gelişmiş görüntü analizi
 - **Sesli Rehberlik**: Fotoğraf çekimi rehberliği için metinden sese
 
-## 📱 Ekran Görüntüleri
+## 📱 Ekranlar
 
-Uygulama şunlar için modern, kullanıcı dostu arayüzler içerir:
+Uygulamada şu ekranlar bulunur:
 - Hızlı işlemlerle hasta dashboard'u
 - Yüz tespiti ile fotoğraf çekimi
 - AI analiz sonuçları
@@ -68,7 +69,9 @@ Uygulama şunlar için modern, kullanıcı dostu arayüzler içerir:
    - `google-services.json` (Android) ve `GoogleService-Info.plist` (iOS) dosyalarını ekleyin
    - Firebase Authentication'ı ayarlayın
    - Firestore veritabanını yapılandırın
-5. Uygulamayı çalıştırın: `flutter run`
+5. Cloud Functions için: `cd functions && npm install && npm run build`
+6. Yardımcı Firestore betikleri (`scripts/`) için kök dizinde: `npm install`
+7. Uygulamayı çalıştırın: `flutter run`
 
 ## 📦 Bağımlılıklar
 
@@ -88,7 +91,7 @@ Temel bağımlılıklar şunları içerir:
 
 ## 🌍 Yerelleştirme
 
-Uygulama şunların tam yerelleştirmesi ile 12 dili destekler:
+Uygulama şunların tam yerelleştirmesi ile 11 dili destekler:
 - UI öğeleri ve navigasyon
 - İçerik sayfaları (Hakkımızda, İletişim, Saç Ekimi prosedürleri)
 - Doktor profilleri ve bilgileri

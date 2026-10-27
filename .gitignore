@@ -48,3 +48,15 @@ app.*.map.json
 # The api_keys.dart file is committed with placeholders
 # Edit locally with your actual keys, but DO NOT commit them
 lib/config/api_keys.dart
+
+# Node bağımlılıkları ve derleme çıktıları
+node_modules/
+functions/node_modules/
+**/build/.last_build_id
+
+# Geliştirme sırasında kullanılan yerel malzemeler
+untranslated.txt
+Örnek ChatBot/
+kullanılacak fotoğraflar/
+ekran/
+*.code-workspace

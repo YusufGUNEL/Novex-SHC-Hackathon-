@@ -60,3 +60,6 @@ untranslated.txt
 kullanılacak fotoğraflar/
 ekran/
 *.code-workspace
+
+# Firebase istemci yapilandirmasi (Firebase konsolundan indirilir)
+android/app/google-services.json
